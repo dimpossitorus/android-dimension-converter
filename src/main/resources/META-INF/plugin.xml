@@ -1,0 +1,23 @@
+<idea-plugin>
+    <id>com.gomitu.android.dimensionconverter</id>
+    <name>Android Dimension Converter</name>
+    <vendor email="dimpossitorus@gomitu.com" url="https://gomitu.com">Gomitu Teknologi Indonesia</vendor>
+
+    <description><![CDATA[
+    Android Dimension Converter, plugin for converting your dimension easily.
+    Just select the file and input the multiplier, and voila, get the resized dimension
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products -->
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
